@@ -8,7 +8,7 @@ Build a small, realistic Windows domain to practice and demonstrate Service Desk
 - **DC:** `DC01` — Windows Server 2022 (AD DS + DNS)
 - **Client:** `PC-USER01` — Windows 11 (domain-joined)
 - **Network:** NAT (lab-internal)
-- **Access/workflow:** Admin from macOS via remote session to Windows host (VMware Workstation).
+- **Admin workflow:** macOS (MacBook Air M4) → Windows host (RDP) → VMware lab
 
 ## Build steps (high level)
 1. Create VM for `DC01` and install Windows Server 2022 (Desktop Experience)
@@ -32,3 +32,7 @@ Screenshots and outputs will be added as the lab is built.
 
 ## N1 tasks covered
 Password reset, account unlock, basic user/group management, domain join, DNS basics, GPO basics, documentation and escalation criteria.
+
+## Devices (for context)
+- **Admin device:** MacBook Air (M4)
+- **Lab host:** Windows PC (Ryzen 7 5800X, 32GB RAM)
